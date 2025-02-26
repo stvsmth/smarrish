@@ -41,137 +41,303 @@
         <h3>Navigating the page</h3>
         <ol>
           <li>
-            <span>j</span>Scroll down
+            <span>f</span>
+            Open a link in the current tab
           </li>
           <li>
-            <span>k</span>Scroll up
+            <span>F</span>
+            Open a link in a new tab
           </li>
           <li>
-            <span>gg</span>Scroll to the top of the page
+            <span>&lt;a-f&gt;</span>
+            Open multiple links in a new tab
           </li>
           <li>
-            <span>G</span>Scroll to the bottom of the page
+            <span>j</span>
+            <!-- <span>&#38;lt;c-e&#38;gt;</span> -->
+            Scroll down
           </li>
           <li>
-            <span>d</span>Scroll a half page down
+            <span>k</span>
+            <!-- <span>&#38;lt;c-y&#38;gt;</span> -->
+            Scroll up
           </li>
           <li>
-            <span>u</span>Scroll a half page up
+            <span>h</span>
+            Scroll left
           </li>
           <li>
-            <span>h</span>Scroll left
+            <span>l</span>
+            Scroll right
           </li>
           <li>
-            <span>l</span>Scroll right
+            <span>gg</span>
+            Scroll to the top of the page
           </li>
           <li>
-            <span>r</span>Reload the page
+            <span>G</span>
+            Scroll to the bottom of the page
           </li>
           <li>
-            <span>yy</span>Copy the current URL to the clipboard
+            <span>zH</span>
+            Scroll all the way to the left
           </li>
           <li>
-            <span>p</span>Open the clipboard's URL in the current tab
+            <span>zL</span>
+            Scroll all the way to the right
           </li>
           <li>
-            <span>P</span>Open the clipboard's URL in a new tab
+            <span>d</span>
+            Scroll a page down
           </li>
           <li>
-            <span>i</span>Enter insert mode
+            <span>u</span>
+            Scroll a page up
           </li>
           <li>
-            <span>v</span>Enter visual mode
+            <span>r</span>
+            Reload current frame
           </li>
           <li>
-            <span>gi</span>Focus the first text input on the page
+            <span>&lt;a-r&gt;</span>
+            Reload N tabs
           </li>
           <li>
-            <span>f</span>Open a link in the current tab
+            <span>R</span>
+            Reload N-th tab
           </li>
           <li>
-            <span>F</span>Open a link in a new tab
+            <span>gs</span>
+            View page source
           </li>
           <li>
-            <span>gf</span>Select the next frame on the page
+            <span>yy</span>
+            Copy page's info
           </li>
           <li>
-            <span>gF</span>Select the page's main/top frame
+            <!-- <span>&#38;lt;s-f1&#38;gt;</span> -->
+            <span>&lt;f2&gt;</span>
+            Blur activeElement or refocus it
+          </li>
+          <li>
+            <span>gi</span>
+            Focus the N-th visible text box on the page and cycle using tab
+          </li>
+          <li>
+            <span>yf</span>
+            Copy a link URL to the clipboard
+          </li>
+          <li>
+            <span>p</span>
+            Open the clipboard's URL in the current tab
+          </li>
+          <li>
+            <span>P</span>
+            Open the clipboard's URL in N new tabs
+          </li>
+          <li>
+            <span>gu</span>
+            Go up the URL hierarchy
+          </li>
+          <li>
+            <span>gU</span>
+            Go to root of current URL hierarchy
+          </li>
+          <li>
+            <span>yi</span>
+            Copy image to the clipboard
+          </li>
+          <li>
+            <span>yv</span>
+            Select text and enter visual mode
+          </li>
+          <li>
+            <span>&lt;f1&gt;</span>
+            Simulate backspace once if focused
+          </li>
+          <li>
+            <span>]]</span>
+            Follow the link labeled next or ">"
+          </li>
+          <li>
+            <span>[[</span>
+            Follow the link labeled previous or "&lt;"
+          </li>
+          <li>
+            <span>gf</span>
+            Cycle forward to the next frame on the page
+          </li>
+          <li>
+            <span>gF</span>
+            Select the tab's main/top frame
+          </li>
+          <li>
+            <span>i</span>
+            Enter insert mode
+          </li>
+          <li>
+            <!-- <span>&#38;lt;f8&#38;gt;</span> -->
+            <span>v</span>
+            Enter visual mode
+          </li>
+          <li>
+            <span>V</span>
+            Enter visual line mode
+          </li>
+          <li>
+            <span>m</span>
+            Create a new mark
+          </li>
+          <li>
+            <span>`</span>
+            Go to a mark
+          </li>
+        </ol>
+      </div>
+      <div>
+        <h3>Using the Vomnibar</h3>
+        <ol>
+          <li>
+            <span>o</span>
+            Open URL, bookmark, or history entry
+          </li>
+          <li>
+            <span>O</span>
+            Open URL, history, … in a new tab
+          </li>
+          <li>
+            <span>b</span>
+            Open a bookmark
+          </li>
+          <li>
+            <span>B</span>
+            Open a bookmark in a new tab
+          </li>
+          <li>
+            <span>T</span>
+            Search through your open tabs
+          </li>
+          <li>
+            <span>ge</span>
+            Edit the current URL
+          </li>
+          <li>
+            <span>gE</span>
+            Edit the current URL and open in a new tab
+          </li>
+          <li>
+            <span>gn</span>
+            Toggle styles of vomnibar page
           </li>
         </ol>
         <h3>Using find</h3>
         <ol>
           <li>
-            <span>/</span>Enter find mode
+            <span>/</span>
+            Enter find mode
           </li>
           <li>
-            <span>n</span>Cycle forward to the next find match
+            <span>n</span>
+            Cycle forward to the next find match
           </li>
           <li>
-            <span>N</span>Cycle backward to the previous find match
-          </li>
-        </ol>
-      </div>
-      <div>
-        <h3>Using the vomnibar</h3>
-        <ol>
-          <li>
-            <span>o</span>Open URL, bookmark or history entry
+            <span>N</span>
+            Cycle backward to the previous find match
           </li>
           <li>
-            <span>O</span>Open URL, bookmark or history entry in a new tab
-          </li>
-          <li>
-            <span>b</span>Open a bookmark
-          </li>
-          <li>
-            <span>B</span>Open a bookmark in a new tab
-          </li>
-          <li>
-            <span>T</span>Search through your open tabs
+            <span>&lt;a-n&gt;</span>
+            Find the second or even earlier query words
           </li>
         </ol>
         <h3>Navigating history</h3>
         <ol>
           <li>
-            <span>H</span>Go back in history
+            <span>H</span>
+            Go back in history
           </li>
           <li>
-            <span>L</span>Go forward in history
+            <span>L</span>
+            Go forward in history
+          </li>
+          <li>
+            <span>&lt;a-s-r&gt;</span>
+            Reopen current page
           </li>
         </ol>
         <h3>Manipulating tabs</h3>
         <ol>
           <li>
-            <span>t</span>Create new tab
+            <span>K</span>
+            <span>gt</span>
+            <!-- <span>&#38;lt;a-s-c&#38;gt;</span> -->
+            <!-- <span>&#38;lt;a-v&#38;gt;</span> -->
+            Go one tab right
           </li>
           <li>
-            <span>J</span>Go one tab left
+            <span>J</span>
+            <span>gT</span>
+            <!-- <span>&#38;lt;a-c&#38;gt;</span> -->
+            Go one tab left
           </li>
           <li>
-            <span>K</span>Go one tab right
+            <span>g0</span>
+            Go to the first N-th tab
           </li>
           <li>
-            <span>g0</span>Go to the first tab
+            <span>g$</span>
+            Go to the last N-th tab
           </li>
           <li>
-            <span>g$</span>Go to the last tab
+            <span>t</span>
+            <span>&lt;a-t&gt;</span>
+            Create new tabs
           </li>
           <li>
-            <span>yt</span>Duplicate current tab
+            <span>yt</span>
+            Duplicate current tab for N times
           </li>
           <li>
-            <span>x</span>Close current tab
+            <span>x</span>
+            Close N tabs
           </li>
           <li>
-            <span>X</span>Restore closed tab
+            <span>X</span>
+            Restore closed tabs
+          </li>
+          <li>
+            <span>W</span>
+            Move tab to next window
+          </li>
+          <li>
+            <span>&lt;c -\></span>
+            Move N tabs to new window
+          </li>
+          <li>
+            <span>&lt;a-p&gt;</span>
+            Pin or unpin N tabs
+          </li>
+          <li>
+            <span>&lt;a-m&gt;</span>
+            Mute or unmute current tab
+          </li>
+          <li>
+            <span>^</span>
+            Go to previously-visited tab on current window
+          </li>
+          <li>
+            <span>&lt;&lt;</span>
+            Move tab to the left
+          </li>
+          <li>
+            <span>&gt;&gt;</span>
+            Move tab to the right
           </li>
         </ol>
       </div>
     </div>
     <h2>More</h2>
     <p>
-      For the latest release notes, more advanced shortcuts, and how to create custom keybindings,
-      see the
+      Vimium release notes, advanced shortcuts, and other documentation:
       <strong><a href="https://github.com/philc/vimium/blob/master/README.md">README</a></strong>.
     </p>
   </body>
