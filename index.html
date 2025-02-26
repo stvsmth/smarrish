@@ -1,6 +1,183 @@
-<html>
-<head></head>
-<body>
-<h3>Hellow World</h3>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Smarrish</title>
+    <meta robots="noindex, nofollow">
+    <meta name="description" content="Go away">
+    <meta name="keywords" content="Go, Away">
+    <style>
+      #keyboard-shortcuts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      #keyboard-shortcuts > div {
+        flex: 1;
+        min-width: 300px;
+      }
+      ol {
+        padding-left: 20px;
+      }
+      li {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      span {
+        font-weight: bold;
+        background: #f0f0f0;
+        padding: 2px 5px;
+        border-radius: 3px;
+        min-width: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="keyboard-shortcuts">Keyboard Shortcuts</h2>
+    <div id="keyboard-shortcuts">
+      <div>
+        <h3>Navigating the page</h3>
+        <ol>
+          <li>
+            <span>j</span>Scroll down
+          </li>
+          <li>
+            <span>k</span>Scroll up
+          </li>
+          <li>
+            <span>gg</span>Scroll to the top of the page
+          </li>
+          <li>
+            <span>G</span>Scroll to the bottom of the page
+          </li>
+          <li>
+            <span>d</span>Scroll a half page down
+          </li>
+          <li>
+            <span>u</span>Scroll a half page up
+          </li>
+          <li>
+            <span>h</span>Scroll left
+          </li>
+          <li>
+            <span>l</span>Scroll right
+          </li>
+          <li>
+            <span>r</span>Reload the page
+          </li>
+          <li>
+            <span>yy</span>Copy the current URL to the clipboard
+          </li>
+          <li>
+            <span>p</span>Open the clipboard's URL in the current tab
+          </li>
+          <li>
+            <span>P</span>Open the clipboard's URL in a new tab
+          </li>
+          <li>
+            <span>i</span>Enter insert mode
+          </li>
+          <li>
+            <span>v</span>Enter visual mode
+          </li>
+          <li>
+            <span>gi</span>Focus the first text input on the page
+          </li>
+          <li>
+            <span>f</span>Open a link in the current tab
+          </li>
+          <li>
+            <span>F</span>Open a link in a new tab
+          </li>
+          <li>
+            <span>gf</span>Select the next frame on the page
+          </li>
+          <li>
+            <span>gF</span>Select the page's main/top frame
+          </li>
+        </ol>
+        <h3>Using find</h3>
+        <ol>
+          <li>
+            <span>/</span>Enter find mode
+          </li>
+          <li>
+            <span>n</span>Cycle forward to the next find match
+          </li>
+          <li>
+            <span>N</span>Cycle backward to the previous find match
+          </li>
+        </ol>
+      </div>
+      <div>
+        <h3>Using the vomnibar</h3>
+        <ol>
+          <li>
+            <span>o</span>Open URL, bookmark or history entry
+          </li>
+          <li>
+            <span>O</span>Open URL, bookmark or history entry in a new tab
+          </li>
+          <li>
+            <span>b</span>Open a bookmark
+          </li>
+          <li>
+            <span>B</span>Open a bookmark in a new tab
+          </li>
+          <li>
+            <span>T</span>Search through your open tabs
+          </li>
+        </ol>
+        <h3>Navigating history</h3>
+        <ol>
+          <li>
+            <span>H</span>Go back in history
+          </li>
+          <li>
+            <span>L</span>Go forward in history
+          </li>
+        </ol>
+        <h3>Manipulating tabs</h3>
+        <ol>
+          <li>
+            <span>t</span>Create new tab
+          </li>
+          <li>
+            <span>J</span>Go one tab left
+          </li>
+          <li>
+            <span>K</span>Go one tab right
+          </li>
+          <li>
+            <span>g0</span>Go to the first tab
+          </li>
+          <li>
+            <span>g$</span>Go to the last tab
+          </li>
+          <li>
+            <span>yt</span>Duplicate current tab
+          </li>
+          <li>
+            <span>x</span>Close current tab
+          </li>
+          <li>
+            <span>X</span>Restore closed tab
+          </li>
+        </ol>
+        <h3>Miscellaneous</h3>
+        <ol>
+          <li>
+            <span>?</span>Show help
+          </li>
+        </ol>
+      </div>
+    </div>
+    <h2>More</h2>
+    <p>
+      For the latest release notes, more advanced shortcuts, and how to create custom keybindings,
+      see the
+      <strong><a href="https://github.com/philc/vimium/blob/master/README.md">README</a></strong>.
+    </p>
+  </body>
 </html>
