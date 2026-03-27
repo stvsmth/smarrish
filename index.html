@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <title>&lt;start&gt;</title>
@@ -88,15 +88,15 @@
           </li>
           <li>
             <span>d</span>
-            Scroll a page down
+            Scroll a half page down
           </li>
           <li>
             <span>u</span>
-            Scroll a page up
+            Scroll a half page up
           </li>
           <li>
             <span>r</span>
-            Reload current frame
+            Reload the page
           </li>
           <li>
             <span>&lt;a-r&gt;</span>
@@ -104,15 +104,11 @@
           </li>
           <li>
             <span>R</span>
-            Reload N-th tab
-          </li>
-          <li>
-            <span>gs</span>
-            View page source
+            Reload the page (hard)
           </li>
           <li>
             <span>yy</span>
-            Copy page's info
+            Copy the current URL to the clipboard
           </li>
           <li>
             <!-- <span>&#38;lt;s-f1&#38;gt;</span> -->
@@ -121,7 +117,7 @@
           </li>
           <li>
             <span>gi</span>
-            Focus the N-th visible text box on the page and cycle using tab
+            Focus the first text input on the page
           </li>
           <li>
             <span>yf</span>
@@ -133,7 +129,7 @@
           </li>
           <li>
             <span>P</span>
-            Open the clipboard's URL in N new tabs
+            Open the clipboard's URL in a new tab
           </li>
           <li>
             <span>gu</span>
@@ -149,8 +145,11 @@
           </li>
           <li>
             <span>yv</span>
+            Find selected text forward
+          </li>
+          <li>
             <span>YV</span>
-            Find selected text (forward/backward)
+            Find selected text backward
           </li>
           <li>
             <span>&lt;f1&gt;</span>
@@ -166,11 +165,11 @@
           </li>
           <li>
             <span>gf</span>
-            Cycle forward to the next frame on the page
+            Select the next frame on the page
           </li>
           <li>
             <span>gF</span>
-            Select next/upper frame
+            Select the page's main/top frame
           </li>
           <li>
             <span>i</span>
@@ -191,7 +190,18 @@
           </li>
           <li>
             <span>`</span>
-            Go to a mark
+            Jump to a mark
+          </li>
+        </ol>
+        <h3>Miscellaneous</h3>
+        <ol>
+          <li>
+            <span>gs</span>
+            View page source
+          </li>
+          <li>
+            <span>?</span>
+            Show help
           </li>
         </ol>
       </div>
@@ -204,7 +214,7 @@
           </li>
           <li>
             <span>O</span>
-            Open URL, history, … in a new tab
+            Open URL, bookmark or history entry in a new tab
           </li>
           <li>
             <span>b</span>
@@ -282,32 +292,31 @@
           </li>
           <li>
             <span>g0</span>
-            Go to the first N-th tab
+            Go to the first tab
           </li>
           <li>
             <span>g$</span>
-            Go to the last N-th tab
+            Go to the last tab
           </li>
           <li>
             <span>t</span>
-            <span>&lt;a-t&gt;</span>
-            Create new tabs
+            Create new tab
           </li>
           <li>
             <span>yt</span>
-            Duplicate current tab for N times
+            Duplicate current tab
           </li>
           <li>
             <span>x</span>
-            Close N tabs
+            Close current tab
           </li>
           <li>
             <span>X</span>
-            Restore closed tabs
+            Restore closed tab
           </li>
           <li>
             <span>W</span>
-            Move tab to next window
+            Move tab to new window
           </li>
           <li>
             <span>&lt;c -\></span>
@@ -315,7 +324,7 @@
           </li>
           <li>
             <span>&lt;a-p&gt;</span>
-            Pin or unpin N tabs
+            Pin or unpin current tab
           </li>
           <li>
             <span>&lt;a-m&gt;</span>
@@ -323,7 +332,7 @@
           </li>
           <li>
             <span>^</span>
-            Go to previously-visited tab on current window
+            Go to previously-visited tab
           </li>
           <li>
             <span>&lt;&lt;</span>
@@ -333,11 +342,18 @@
             <span>&gt;&gt;</span>
             Move tab to the right
           </li>
+          <!-- unlike source, we break zi/zo/z0 out for legibility -->
           <li>
             <span>zi</span>
+            Zoom in
+          </li>
+          <li>
             <span>zo</span>
+            Zoom out
+          </li>
+          <li>
             <span>z0</span>
-            Zoom in / out / reset
+            Zoom reset
           </li>
         </ol>
       </div>
